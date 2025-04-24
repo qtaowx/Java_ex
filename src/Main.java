@@ -140,8 +140,6 @@ public class Main {
         // 编译src目录下的所有Java文件
         // $ javac -d ./bin src/**/*.java
 
-
-
     }
 
     public static double totalTax(Income... incomes){
