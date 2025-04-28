@@ -36,8 +36,7 @@ class Score {
     private int[] scores;
 
     public Score(int[] scores) {
-//        this.scores = scores;
-        // 从String的不变性设计可以看出，如果传入的对象有可能改变，我们需要复制而不是直接引用
+//      this.scores = scores;  // 从String的不变性设计可以看出，如果传入的对象有可能改变，我们需要复制而不是直接引用
         this.scores = Arrays.copyOf(scores, scores.length);
     }
 
